@@ -1,0 +1,48 @@
+* {
+    background-color: #50223C;
+    color: palegoldenrod;
+}
+
+body{
+    margin: 50px;
+}
+
+p{
+    padding: 10px;
+}
+
+h1, h2, h3{
+    font-family: 'Arial Narrow Bold', sans-serif ;
+    font-size: 30px;
+}
+
+li {
+ list-style: none;
+ display: inline;
+ margin: 2em;
+ font-size: 20px;
+}
+
+ul{
+    border: 6px solid black;
+    padding: 10px;
+}
+
+table{
+    border: 2px solid black;
+}
+th, td{
+    padding: 5px;
+    border: solid black 2px;
+}
+
+img{
+    border: solid black 6px;
+}
+
+table div {
+    padding-right: auto;
+    padding-left: auto;
+
+}
+
