@@ -1,0 +1,33 @@
+*{
+    background-color: #50223C;
+    color: palegoldenrod
+}
+h1{
+    font-family : "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif; 
+    font-size:30px;
+}
+
+img{
+    margin-left: -40px;
+    
+}
+p{
+    
+    margin-left: 20px;
+    padding: 10px;
+}
+
+h1{
+    margin-left: 20px;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin: 2em;
+    font-size: 20px;
+ 
+}
+ul{
+    border: 6px solid black;
+    padding: 10px;
+}
