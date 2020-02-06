@@ -75,5 +75,22 @@ header img{
     background: black;
     border: solid black;
 }
+fieldset{
+    margin-bottom: 40px;
+    
+}
+label {
+    width: 240px;
+    display: inline-block;
+}
+.a{
+     width: 200px;
+    display: inline-block;
+}
+#specialCase{
+    font-size: 18px;
+    margin-left: -10px;
+        
+}
 
 
