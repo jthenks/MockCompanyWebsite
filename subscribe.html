@@ -1,18 +1,130 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset = "UTF - 8">
-        <meta name = "description" content="Assignment 1">
-        <meta name = "keywords" content = "HTML, CSS, XML, JavaScript">
-        <meta name = "author" content = "John Valiente">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" href = "about.css" type = text/css>
+    <html lang = "en">
 
-        <title>Subscribe</title>
-    </head>
-
+        <head>
+            <title> Subscribe </title>
+            <link rel = "stylesheet" href = "style.css" type = "text/css">
+            <meta charset = "utf-8">
+            <meta name = "keywords" content = "css, html">
+            <meta name = "author" content = "Jordan Henkelman, John Valiente">
+            <meta name = "description" content = "Home Page">
+        </head>
     <body>
-        
+        <header>
+            <h1>
+                <img src= "images/logo.jpg" alt = "Company Logo" title = "public void succeed">
+                <div> public void succeed() { </div>
+            </h1>
+        </header>
+        <p>
+            <div>
+                <ul>
+                    <li><a href = "home.html">Home</a></li>
+                    <li><a href="subscribe.html" style= "color:paleturquoise;">Subscribe</a></li>
+                    <li><a href = "about.html">About Us</a></li>
+                    <li><a href= "home.html#services">Services</a></li>
+
+                </ul>
+            </div>
+        </p>
+        <form method = "post" action = "thank-you.html" name = "subscribe">
+
+            <fieldset >
+                    <legend >Get News And Offers From Us </legend>
+                   
+                        <label > Email Address:
+                                <input name = "email" type = "text" size = "25" value = "" maxlength ="20" placeholder="something@example.com"class ="a">
+                        </label>
+                   
+                        <label> Date of Birth:    
+                                <input name = "date" type ="date" size = "25" value = "" maxlength ="20"class ="a">
+                        </label>   
+
+              
+                    </br>
+                </br>
+                        <input type = "submit" value = "Sign Up">
+                           
+                        </label></label>
+                   
+            </fieldset>
+
+            <fieldset>
+                
+                <legend>Packages & Method of Payment</legend>
+                    <label>Bronze ($5.00/month):
+                        <input name = "packages" type = "radio" value = "bronze">
+    
+                     </label>
+             
+             
+            
+                <label>Silver ($8.00/month):
+                    <input name = "packages" type = "radio" value = "silver">
+                </label>
+                <label>Gold ($12.00/month): 
+                    <input name = "packages" type = "radio" value = "gold">
+                </label>
+                 <label>Platinum ($18.00/month): 
+                    <input name = "packages" type = "radio" value = "platinum">
+                </label>
+            </fieldset>
+      
+            <fieldset>
+                <legend>Shipping & Billing</legend>
+                <label>First name*:
+                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="first name"  >
+                </label>
+                <label>Last name*:
+                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="last name" >
+                </label>
+                </br>
+                 </br>
+                <label>Address*:
+                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="last name" >
+                </label>
+                <label class= "a">City*:
+                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="last name" >
+                </label>
+                
+
+             </br>
+             </br>
+                <label>Province*:
+                    <input name = "Province" type = "text" size = "35" value = "" maxlength ="30" placeholder="last name">
+                </label>
+
+            <p id = "specialCase"><u>Billing</u></p>
+
+            <label>Owner name*:
+                <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="first name"  >
+            </label>
+            <label>CVV*:
+                <input name = "number" type = "number" size = "35" value = "" maxlength ="30" placeholder="xxx"  class = "a" >
+            </label>
+        </br>
+    </br>
+            <label>Card Number*:
+                <input name = "number" type = "number" size = "35" value = "" maxlength ="30" placeholder="xxx"  class = "a" >
+            </label>
+
+            <label> Expiration date:    
+                <input name = "date" type ="date" size = "25" value = "" maxlength ="20"class ="a">
+        </label> 
+
+        </br>
+         </br>   
+        </br> 
+
+        <input type = "submit" value = "Sign Up">
+        <input type = "reset" value = "Clear">
+            </fieldset>
+                
+    
+           
+
+
+        </form>
     </body>
-</html>
+
+</html>    
