@@ -84,13 +84,24 @@ label {
     display: inline-block;
 }
 .a{
-     width: 200px;
+    width: 200px;
     display: inline-block;
+    background-color: white;
+    color:black;
 }
 #specialCase{
     font-size: 18px;
     margin-left: -10px;
         
+}
+::placeholder{
+    color: rgb(168, 153, 153);
+}
+input[type = "date"]{
+    color: black;
+}
+.red_star{
+    color:rgb(151, 23, 23);
 }
 
 

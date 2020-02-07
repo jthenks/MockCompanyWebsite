@@ -36,80 +36,82 @@
                                 <input name = "email" type = "text" size = "25" value = "" maxlength ="20" placeholder="something@example.com"class ="a">
                         </label>
                    
-                        <label> Date of Birth:    
-                                <input name = "date" type ="date" size = "25" value = "" maxlength ="20"class ="a">
-                        </label>   
+                        <label>Name :
+                            <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="Name" class="a" >
+                        </label>
 
               
                     </br>
                 </br>
                         <input type = "submit" value = "Sign Up">
-                           
-                        </label></label>
-                   
+                        <input type = "reset" value = "Clear">
+                       
             </fieldset>
 
             <fieldset>
                 
                 <legend>Packages & Method of Payment</legend>
-                    <label>Bronze ($5.00/month):
+                    <label> <span style = "color:  #cd7f32">Bronze ($5.00/month):</span>
                         <input name = "packages" type = "radio" value = "bronze">
     
                      </label>
              
              
             
-                <label>Silver ($8.00/month):
-                    <input name = "packages" type = "radio" value = "silver">
+                <label > <span style = "color:  silver">Silver ($8.00/month)</span> :
+                    <input name = "packages" type = "radio" value = "silver" style = "color: silver">
                 </label>
-                <label>Gold ($12.00/month): 
-                    <input name = "packages" type = "radio" value = "gold">
+                <label><span style = "color: gold"> Gold ($12.00/month): </span>
+                    <input name = "packages" type = "radio" value = "gold" style = "color: gold">
                 </label>
-                 <label>Platinum ($18.00/month): 
-                    <input name = "packages" type = "radio" value = "platinum">
+                 <label> <span style = "color:#e5e4e2">Platinum ($18.00/month): </span>
+                    <input name = "packages" type = "radio" value = "platinum" >
                 </label>
             </fieldset>
       
             <fieldset>
                 <legend>Shipping & Billing</legend>
-                <label>First name*:
-                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="first name"  >
+                <label>First name <span class = "red_star">*</span>:
+                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="First Name" class="a" >
                 </label>
-                <label>Last name*:
-                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="last name" >
+                <label>Last name <span class = "red_star">*</span>:
+                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="Last name"class="a" >
                 </label>
                 </br>
                  </br>
-                <label>Address*:
-                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="last name" >
+                <label>Address <span class = "red_star">*</span>:
+                    <input name = "address" type = "text" size = "35" value = "" maxlength ="30" placeholder="Address" class="a">
                 </label>
-                <label class= "a">City*:
-                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="last name" >
+                <label >City <span class = "red_star">*</span>:
+                    <input name = "City" type = "text" size = "35" value = "" maxlength ="30" placeholder="City"  class="a">
                 </label>
                 
 
              </br>
              </br>
-                <label>Province*:
-                    <input name = "Province" type = "text" size = "35" value = "" maxlength ="30" placeholder="last name">
+                <label>Province <span class = "red_star">*</span>:
+                    <input name = "Province" type = "text" size = "35" value = "" maxlength ="30" placeholder="Province"class="a">
+                </label>
+                <label>Postal Code <span class = "red_star">*</span>:
+                    <input name = "Postal code" type = "text" size = "35" value = "" maxlength ="30" placeholder="Postal Code"class="a">
                 </label>
 
             <p id = "specialCase"><u>Billing</u></p>
 
-            <label>Owner name*:
-                <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="first name"  >
+            <label>Owner Name <span class = "red_star">*</span>:
+                <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="Owner name" class="a" >
             </label>
-            <label>CVV*:
-                <input name = "number" type = "number" size = "35" value = "" maxlength ="30" placeholder="xxx"  class = "a" >
+            <label>CVV <span class = "red_star">*</span>:
+                <input name = "number" type = "text" size = "35" value = "" maxlength ="3" placeholder="xxx"  class = "a" pattern = "{0-9}{3}">
             </label>
         </br>
     </br>
-            <label>Card Number*:
-                <input name = "number" type = "number" size = "35" value = "" maxlength ="30" placeholder="xxx"  class = "a" >
+            <label>Card Number<span class = "red_star">*</span>:
+                <input name = "text" type = "text" size = "35" value = "" maxlength ="16" placeholder="xxxx-xxxx-xxxx-xxxx"  class = "a" pattern = "{0-9}{4}{\-}{0-9}{4}{\-}{0-9}{4}{\-}{0-9}{4}">
             </label>
 
-            <label> Expiration date:    
-                <input name = "date" type ="date" size = "25" value = "" maxlength ="20"class ="a">
+            <label> Expiration Date <span class = "red_star">*</span>:    
+                <input name = "number" type ="text" size = "4" value = "" maxlength ="5" class ="a" placeholder="Expiration Date (MM/YY)" pattern = "{0-9}{2}{\/}{0-9}{2}">
         </label> 
 
         </br>
@@ -119,10 +121,6 @@
         <input type = "submit" value = "Sign Up">
         <input type = "reset" value = "Clear">
             </fieldset>
-                
-    
-           
-
 
         </form>
     </body>
