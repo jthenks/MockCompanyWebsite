@@ -97,11 +97,16 @@ label {
 ::placeholder{
     color: rgb(168, 153, 153);
 }
-input[type = "date"]{
-    color: black;
+.b{
+    width: 400px;
+    background-color: white;
 }
 .red_star{
     color:rgb(151, 23, 23);
+}
+.c{
+    font-size: 5px;
+    width: -200px;
 }
 
 
