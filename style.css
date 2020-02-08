@@ -105,5 +105,17 @@ label {
 .red_star{
     color:rgb(151, 23, 23);
 }
+figure img{
+    float: right;
+    position: relative;
+    left: 150px;
+}
+figure figcaption{
+    float: right;
+    position: relative;
+    top: 250px;
+    right: 300px;
+  
+}
 
 
