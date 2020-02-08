@@ -14,10 +14,13 @@
         <header>
             <h1>
                 <img src= "images/logo.jpg" alt = "Company Logo" title = "public void succeed">
-                <div> public void succeed() { </div>
+              
             </h1>
+            <p style = "margin-top: -90px;
+            font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+            margin-left: 20px; font-size: 30px;">public void succeed(){ </p>
         </header>
-        <p>
+        
             <div>
                 <nav>
                      <ul>
@@ -25,15 +28,16 @@
                         <li><a href = "subscribe.html">Subscribe</a></li>
                         <li><a href = "about.html">About Us</a></li>
                         <li><a href = "#services">Services</a></li>
+                        <li><a href = "https://www.java.com/en/download/"> Java Download</a> </li>
 
                     </ul>
                  </nav>
             </div>
-        </p>
+       
         <article>
             <h2>Welcome</h2>
              <p>
-                 You're here because you want to learn how to program. </br>
+                 You're here because you want to learn how to program. <br>
                  We're here to teach you.
             </p>
 
@@ -41,13 +45,13 @@
                  Whether you're a programming student who needs some extra help, or someone with absolutely no programming experience, we have the tools to help you succeed.
              </p>
          </article>
-    </br>
+    <br>
         <h3>No Education Needed  <img src ="images/ElonTweet.jpg" alt = "Elon Musk tweets that 'Educational background is irrelevent' to be a programmer at tesla." title = "Taken from: https://twitter.com/elonmusk/status/1224182478501482497" width = "400"> </h3>
 
         
             <p>
                
-                Unlike other professions, a formal education for programming is not always necessary. </br>
+                Unlike other professions, a formal education for programming is not always necessary. <br>
                 Many large corperations care more about your ability than your degree.
             </p>
     
@@ -60,7 +64,7 @@
         
         <p>
             <article>
-        <h4 style="font-size: 22px;">In order to help you succeed, we have implemented four tiers of </br> educational services: </h4>
+        <h4 style="font-size: 22px;">In order to help you succeed, we have implemented four tiers of <br> educational services: </h4>
 
             
             <ul id="services">
@@ -69,7 +73,7 @@
                 <li style="color: gold;">Gold</li>
                 <li style="color: #e5e4e2;">Platinum</li>
             </ul>
-        </br>
+        <br>
             <table>
                 <thead>
                     <tr>
@@ -130,24 +134,34 @@
              <fieldset >
                   <legend style = "font-size: 20px">Contact Us</legend>
        
-                 <label > Email Address:
-                    <input name = "email" type = "text" size = "25" value = "" maxlength ="20" placeholder="something@example.com"class ="a">
+                 <label > Email Address<span class = "red_star">*</span>:
+                    <input name = "email" type = "text" size = "25" value = "" maxlength ="20" placeholder="something@example.com"class ="a" pattern ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" href = "mailto:js.valiente12@gmail.com">
                  </label>
        
                  <label>Name :
-                    <input name = "name" type = "text" size = "25" value = "" maxlength ="30" placeholder="Name" class="a" >
+                    <input name = "name" type = "text" size = "25" value = "" maxlength ="30" placeholder="name" class="a" >
                  </label>
-                 <label> Telephone:
-                      <input name="telphone" type="tel" size="25" placeholder= "Optional" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="20" class = "a">
+                <br>
+            <br>
+                 <label> Telephone (optional):
+                      <input name="telphone" type="tel" size="25" placeholder= "xxx-xxx-xxxx " pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="20" class = "a">
                 
                  </label>
-                </br>
-            </br>
-                <label>Comments: </br>
-                    <textarea name = "comment" rows = "5" cols="800" class = "b"></textarea>
+                 <label>Date of Birth :
+                    <input name = "date" type = "date" class="a" >
+                 </label>
+                <br>
+                <br>
+                 <label>Subject<span class = "red_star">*</span> :</br>
+                    <textarea name = "text" size= "15px" maxlength = "15" class = "b" required = "required" style = "height: 17px; width: 445px;" placeholder="subject"></textarea>
                 </label>
-             </br>
-              </br>
+                </br>
+            <br>
+                <label>Comments<span class = "red_star">*</span> :</br>
+                    <textarea name = "comment" class = "b" placeholder="add comment here" style = "height: 100px; width: 445px;" ></textarea>
+                </label>
+             <br>
+              <br>
               
               <label>
                   <input name = "checkbox" type = "checkbox" value = "I would like to receive emails about new offers" >
@@ -157,11 +171,8 @@
                 <input name = "checkbox" type = "checkbox" value = "I would like to receive emails about new offers" >
                 I agree to terms and conditions
                 </label>
-
-
-
-                </br>
-                </br>
+                <br>
+                <br>
                  <input type = "submit" value = "Sign Up">
                  <input type = "reset" value = "Clear">
            

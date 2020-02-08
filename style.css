@@ -100,13 +100,10 @@ label {
 .b{
     width: 400px;
     background-color: white;
+    color: black;
 }
 .red_star{
     color:rgb(151, 23, 23);
-}
-.c{
-    font-size: 5px;
-    width: -200px;
 }
 
 
