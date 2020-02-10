@@ -94,19 +94,19 @@
                 <p id = "specialCase"><u>Billing</u></p>
 
                 <label>Owner Name <span class = "red_star">*</span>:
-                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="Owner name" class="a" >
+                    <input name = "name" type = "text" size = "35" value = "" maxlength ="30" placeholder="Owner name" class="a" required= "">
                 </label>
                 <label>CVV <span class = "red_star">*</span>:
-                    <input name = "number" type = "text" size = "35" value = "" maxlength ="3" placeholder="xxx"  class = "a" pattern = "{0-9}{3}">
+                    <input name = "number" type = "text" size = "35" value = "" maxlength ="3" placeholder="xxx"  class = "a" pattern = "{0-9}{3}" required = "">
                 </label>
                 <br>
                  <br>
                      <label>Card Number<span class = "red_star">*</span>:
-                        <input name = "text" type = "text" size = "35" value = "" maxlength ="16" placeholder="xxxx-xxxx-xxxx-xxxx"  class = "a" pattern = "{0-9}{4}{\-}{0-9}{4}{\-}{0-9}{4}{\-}{0-9}{4}">
+                        <input name = "text" type = "text" size = "35" value = "" maxlength ="16" placeholder="xxxx-xxxx-xxxx-xxxx"  class = "a" pattern = "{0-9}{4}{\-}{0-9}{4}{\-}{0-9}{4}{\-}{0-9}{4}" required ="">
                      </label>
 
                     <label> Expiration Date <span class = "red_star">*</span>:    
-                         <input name = "number" type ="text" size = "4" value = "" maxlength ="5" class ="a" placeholder="Expiration Date (MM/YY)" pattern = "{0-9}{2}{\/}{0-9}{2}">
+                         <input name = "number" type ="text" size = "4" value = "" maxlength ="5" class ="a" placeholder="Expiration Date (MM/YY)" pattern = "{0-9}{2}{\/}{0-9}{2}" required = "">
                      </label> 
 
                 <br>
