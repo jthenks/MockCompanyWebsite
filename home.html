@@ -9,7 +9,7 @@
         <meta name = "author" content = "Jordan Henkelman">
         <meta name = "description" content = "Home Page">
     </head>
-    
+
     <body>
         <section>
         <header>
@@ -96,9 +96,7 @@
                     <tr>
                         <td style="color: silver;">Silver</td>
                         <td>$8.00 / month</td>
-                        <div>
-                            <td title = "taken from: https://www.rapidtables.com/web/html/html-codes/htm-code-check.html"> &#10004; </td>
-                        </div>
+                        <td title = "taken from: https://www.rapidtables.com/web/html/html-codes/htm-code-check.html"> &#10004; </td>
                         <td>Access to our coding practice problems</td>
                         <td> </td>
                         <td> </td>
@@ -125,18 +123,17 @@
 
             </table>
         </article>
-        </p>
-        <p style= "font-size: 20px";>
-            Help us help you succeed. </br> </br>
+        <p id="d">
+            Help us help you succeed. <br><br>
             Subscribe today.
         </p>
 
-        <form>
-             <fieldset >
+        <form method="post" action="mailto:something@example.com" name="contactUs">
+             <fieldset>
                   <legend style = "font-size: 20px">Contact Us</legend>
        
                  <label > Email Address<span class = "red_star">*</span>:
-                    <input name = "email" type = "text" size = "25" value = "" maxlength ="20" placeholder="something@example.com"class ="a" pattern ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" href = "mailto:js.valiente12@gmail.com">
+                    <input name = "email" type = "text" size = "25" value = "" maxlength ="20" placeholder="something@example.com" class ="a" pattern ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                  </label>
        
                  <label>Name :
@@ -153,12 +150,12 @@
                  </label>
                 <br>
                 <br>
-                 <label>Subject<span class = "red_star">*</span> :</br>
-                    <textarea name = "text" size= "15px" maxlength = "15" class = "b" required = "required" style = "height: 17px; width: 445px;" placeholder="subject"></textarea>
+                 <label>Subject<span class = "red_star">*</span> : <br>
+                    <textarea name = "text" maxlength = "15" class = "b" required = "required" style = "height: 17px; width: 445px;" placeholder="subject"></textarea>
                 </label>
-                </br>
+                <br>
             <br>
-                <label>Comments<span class = "red_star">*</span> :</br>
+                <label>Comments<span class = "red_star">*</span> : <br>
                     <textarea name = "comment" class = "b" placeholder="add comment here" style = "height: 100px; width: 445px;" ></textarea>
                 </label>
              <br>

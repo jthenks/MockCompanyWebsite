@@ -7,12 +7,18 @@ div p{
     background-color: black;
 }
 
+.d{
+    font-size: 20px;
+}
+
 .firstLetter{
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-tbody tr:nth-child(odd) {
+/* This code is not working for our zebra table for some reason. 
+*/
+tr:nth-child(odd) {
     background-color: black;
   }
 
